@@ -1,0 +1,157 @@
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: serif;
+    }
+
+    body {
+        width:100%;
+        display:flex;
+        align-items: center ;
+        justify-content: center;
+        min-height:100vh;
+        padding:0 10px;
+        color: white;
+        }
+      
+       
+            
+        body {
+            width:100%;
+            display:flex;
+            align-items: center ;
+            justify-content: center;
+            min-height:100vh;
+            padding:0 10px;
+            color: white;
+            position: absolute;
+width: 100%;
+height: 100%;
+background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-HD-Pictures-1920x1080.jpg ");
+background-position: center;
+background-size: cover;
+z-index: -1;
+}
+
+.wrapper {
+    width: 490px ;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ffffff80;
+    backdrop-filter: blur(8px)
+    }
+    
+    form { 
+        display: flex;
+        flex-direction: column;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color:#efefef;
+            }
+            
+            .input-field {
+            position: relative;
+            border-bottom: 2px solid #ccc;
+            margin: 15px 0
+            }
+.input-field label {
+    position: absolute;
+    color: #efefef;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s;
+}
+
+.input-field input {
+    width: 100%;
+    height: 40px;
+    color: #000;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+    color: #efefef;
+}
+
+#remember {
+    accent-color: #fefefe;
+}
+
+.forget label{
+    display: flex;
+    align-items: center;
+}
+
+.forgot label p{
+    margin-left: 8px;
+}
+.wrapper a {
+    color: #efefef;
+    text-decoration: underline;
+}
+
+button {
+    background: #efefef;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.register {
+    text-align: center;
+    margin-top: 30px;
+    color: #fefefe;
+}
+
+nav {
+    position: absolute; /* Position over the image */
+    top: 20px; /* Adjust the position as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 10px 20px; /* Padding around the nav items */
+    border-radius: 5px; /* Rounded corners */
+}
+nav a {
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+    font-weight: bold; /* Bold text */
+}
+
+ul li {color: red;}
+li{display:inline}
+ul li{word-spacing: 30%;}
+
+div ul li{display: inline;
+    margin: 20px;}
